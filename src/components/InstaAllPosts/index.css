@@ -1,0 +1,21 @@
+.all-posts {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.posts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.error-icon {
+  font-size: 40px;
+  background: #4094ef;
+}

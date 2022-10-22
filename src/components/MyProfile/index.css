@@ -1,0 +1,179 @@
+.home-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fafafa;
+}
+.posts-container {
+  display: flex;
+}
+
+.profile-container {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.my-profile-image {
+  width: 160px;
+  height: 160px;
+  margin-right: 64px;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-username {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.posts-followers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.posts {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.span {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.user-id {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.my-profile-stories {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.story {
+  margin-right: 40px;
+  list-style-type: none;
+}
+.image {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 3px solid #dbdbdb;
+}
+
+.hr-line {
+  border: 0.5px solid #dbdbdb;
+}
+
+.grid-icon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.grid-icon-container {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.post-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #262626;
+}
+
+.all-posts-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post-item {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.post {
+  height: 315px;
+  width: 315px;
+}
+
+.empty-posts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.camera-icon {
+  font-size: 70px;
+  color: #262626;
+}
+
+.no-posts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+}
+
+.my-profile-loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .my-profile-image {
+    width: 96px;
+    height: 96px;
+  }
+  .profile-container {
+    padding: 20px;
+  }
+  .post {
+    width: 125px;
+    height: 125px;
+  }
+  .grid-icon-container {
+    margin-left: 20px;
+  }
+  .post-item {
+    margin-right: 3px;
+  }
+  .my-profile-stories {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .all {
+    width: 100%;
+  }
+}

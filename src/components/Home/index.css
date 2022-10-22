@@ -1,0 +1,160 @@
+.all-stories {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.stories-posts-container {
+  width: 65%;
+  margin: auto;
+}
+
+.slick-arrow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+@media screen and (max-width: 576px) {
+  .all-stories {
+    width: 85%;
+    margin: auto;
+  }
+  .stories-posts-container {
+    width: 100%;
+  }
+}
+
+.oops-error {
+  width: 560px;
+  height: 274px;
+  margin-bottom: 48px;
+}
+
+.wrong-error {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  color: #262626;
+}
+.something-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.try-again-btn {
+  width: 127px;
+  height: 48px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'roboto';
+  background: #4094ef;
+  border-radius: 12px;
+}
+
+.search-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 32px;
+  font-weight: 550;
+}
+
+.search-not-found {
+  width: 500px;
+  height: 409px;
+  margin-bottom: 32px;
+}
+
+.search-not-found-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 12px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #989898;
+}
+
+.no-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+
+.search-item-container {
+  margin-top: 48px;
+}
+
+.all-search-Posts {
+  background-color: #ffffff;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(123, 135, 148, 0.16);
+  border-radius: 16px;
+}
+
+.search-loader-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .search-not-found {
+    width: 258px;
+    height: 210px;
+    margin-bottom: 10px;
+  }
+  .no-search-container {
+    height: 70vh;
+  }
+  .search-not-found-heading {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 10px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
